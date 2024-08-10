@@ -1,0 +1,11 @@
+.home-grid{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap : 10px;
+}
+
+.home-grid>div>img{
+    width: 100%;
+}

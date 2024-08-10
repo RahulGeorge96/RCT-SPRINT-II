@@ -1,0 +1,12 @@
+div{
+    border : 1px solid midnightblue;
+    margin: 20px;
+}
+
+.dark{
+    background-image: linear-gradient(midnightblue , purple);
+}
+
+.light{
+    background-image: linear-gradient(tomato , orange);
+}

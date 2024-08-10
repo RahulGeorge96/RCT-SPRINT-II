@@ -1,0 +1,23 @@
+.navbar-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+    padding: 10px;
+    position: fixed;
+    top:0;
+    left:0;
+}
+
+.navbar-container>button{
+    border:none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color:tomato;
+    color: antiquewhite;
+}
+
+.navbar-container>button:active{
+   padding: 5px 10px;
+   background-color: green;
+}
