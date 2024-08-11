@@ -6,7 +6,7 @@ import {useNavigate} from "react-router-dom"
 
 export const Login = ()=>{
 
-    const URL = `https://fir-mk-1-default-rtdb.asia-southeast1.firebasedatabase.app/credentials.json`
+    const URL = `https://rct-practice-1-default-rtdb.asia-southeast1.firebasedatabase.app/credentials.json`;
     let emailRef = useRef()
     let passwordRef = useRef()
     let {isAuth , UpdateIsAuth} = useContext(AuthContext)

@@ -15,7 +15,7 @@ export const Home = ()=>{
             {
                 movieData.map((ele)=>{
                     return(
-                        <div>
+                        <div key={ele.id}>
                             <img src={ele.Poster} alt={ele.imdbID} />
                             <h3>{ele.Title}</h3>
                             <button onClick={()=>handleClick(ele.imdbID)}>Add to wishlist</button>
